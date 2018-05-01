@@ -1,0 +1,122 @@
+body{
+	background: #000;
+	background-image: url(../img/fondo.jpg);
+	background-size: 100%;
+}
+
+h1,h2,h3,h4,h6{
+	color: #000;
+}
+
+h5{
+	color: #fff;
+}
+
+.nav{
+	background-color: transparent !important;
+	box-shadow: 0px 0px transparent!important;
+}
+
+.img{
+	width: 100%;
+	border-radius: 1em;
+	border: 1px solid black;
+	margin-top: 1em;
+}
+
+@media (max-width: 760px){
+
+	.nav{
+		float: none !important;
+	}
+}
+
+/*2 Seccion*/
+.medio{
+	height: auto;
+}
+
+.img-red{
+	width: 50%;
+	margin-bottom: 1em;
+	margin-right: 1em;
+}
+
+.img-paisaje{
+	width: 100%;
+	height: 535px;
+	border-radius: 1em;
+	border: 3px solid white;
+}
+
+.img-paisaje-2{
+	width: 100%;
+	height: 255px;
+	border-radius: 1em;
+	border: 3px solid white;
+}
+
+/*Publicacion*/
+.comen1{
+	border-radius: 1em;
+	margin-bottom: 1em;
+}
+
+.acua-img{
+	width: 30%;
+	float: left;
+	margin-top: 1em;
+	margin-right: 0.5em;
+}
+
+.boton{
+	float: right;
+	margin: 2em;
+	background-color: #eceff1 !important;
+}
+
+.hr{
+	width: 80% !important;
+	margin: 1em !important;
+	text-align: center !important;
+}
+
+.comen2{
+	border-radius: 1em;
+}
+
+.img-autor{
+	width: 50%;
+	display: block;
+	margin: auto;
+	margin-top: 1em;
+}
+
+.comen3{
+	border-radius: 1em;
+	margin-bottom: 1em;
+}
+
+.textarea{
+	border-color: #fff !important; 
+}
+
+@media (max-width: 760px){
+	.comen1{
+		margin-bottom: 1em
+	}
+
+	.acua-img{
+		float: center;
+		width: 100%;
+	}
+
+	.comen2{
+		width: 80% !important;
+		margin-left: 3em !important;
+	}
+
+	.comen3{
+		margin-bottom: 1em;
+	}
+}

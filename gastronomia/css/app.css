@@ -1,0 +1,199 @@
+body{
+	background-image: url(../img/fondo.jpg);
+	background-size: cover;
+	font-family: 'Helvetica', cursive;
+	
+}
+
+h3{
+	color: #fff;
+	font-family: 'Indie Flower', cursive;
+}
+
+h1,h2,h4,h5,h6,p{
+	font-family: 'Indie Flower', cursive;
+}
+
+.p{
+	font-size: 1.5em;
+}
+
+h5{
+	font-size: 1.5em;
+}
+
+h1{
+	font-size: 5em;
+}
+
+span{
+	font-size: 1.5em;
+}
+
+
+/* Fondos */
+.bg-trans{
+	background: transparent;
+	color: #fff;
+}
+
+.bg-fondo{
+	background-color: #3e2723;
+}
+
+.bg-fondo2{
+	background-color: #00bcd4;
+	border-radius: 1em;
+}
+
+.bg-fondo3{
+	background-color: #fff9c4;
+	border-radius: 1em;
+}
+
+.bg-fondo-botton{
+	background: #1976d2;
+}
+
+.column1{
+	padding-left: 0.9em !important;
+	padding-right: 0px !important;
+}
+
+.text{
+	margin-top: 1em;
+}
+
+/*Fondo con opacidad*/
+.container{
+	background: hsla(9, 28%, 19%, 0.71);
+	width: 80%;
+	height: auto;
+	padding: 10px;
+	margin-left: 8em;
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+@media (max-width: 768px){
+	.container{
+		display: block;
+		margin:auto;
+	}
+
+	#menufont img{
+		margin-bottom: 1em;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+
+	span{
+		font-size: 1em;
+	}
+
+	h3{
+		font-size: 2em;
+		text-align: center;
+	}
+
+	.text{
+		margin-top: 0px;
+	}
+
+	.p{
+		font-size: 1em;
+	}
+
+}
+
+/*Barra superior*/
+.slogan{
+	text-align: right;
+}
+
+/*buscador*/
+.buscar{
+	margin-top: 1em;
+}
+
+.barra-sup{
+	height: auto;
+	margin-bottom: 1em;
+}
+
+.redon{
+	border-radius: 1em 0 0 1em !important;
+}
+
+.redon-b{
+	border-radius: 0 1em 1em 0 !important;
+}
+
+/*Menu*/
+#menufont{
+	margin-bottom: 1em;
+}
+
+#menufont a{
+	color: #fff;
+	text-align: center;
+}
+
+#menufont a:hover{
+	color: #fff9c4;
+}
+
+#menufont li{
+	border: 1px solid black;
+	border-radius: 0.3em;
+}
+
+.box-shadow{
+	border: 1px solid  #fff9c4;
+	box-shadow: 2px 4px #000;
+}
+
+#historial a{
+	color: #fff;
+}
+
+/*Columna de la Derecha*/
+.receta{
+	border-radius: 1em;
+}
+
+.height{
+	height: auto;
+	margin-bottom: 1em;
+}
+
+#ingredientes a{
+	color: #000;
+}
+
+.rece{
+	margin-top: 1em;
+}
+
+#hist-comen{
+	background: white;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	border-radius: 1em;
+}
+.textarea{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.btn{
+	background-color: #00bcd4;
+	color: #fff;
+	padding: 0.5em !important;
+	border-radius: 0.3em;
+	margin-top: 0.5em !important;
+	float: right;
+}
